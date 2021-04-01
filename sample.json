@@ -1,0 +1,66 @@
+{
+    "formName" : "AccountsHead",
+    "formDesc" : "This is test description",
+    "data" : [ 
+        {
+            "fieldname" : "AccountHeadName",
+            "fieldplaceholder" : "Account Head Name",
+            "fieldlabel" : "Account Head Name",
+            "fieldrules" : [ 
+                {
+                    "required" : true,
+                    "message" : "This field is required"
+                }
+            ],
+            "fieldtype" : "number"
+        }, 
+        {
+            "fieldname" : "Account",
+            "fieldplaceholder" : "Account Head Name",
+            "fieldlabel" : "Account Head Name",
+            "fieldrules" : [ 
+                {
+                    "required" : true,
+                    "message" : "This field is required"
+                }
+            ],
+            "fieldtype" : "text"
+        }, 
+        {
+            "fieldname" : "Account1",
+            "fieldplaceholder" : "Account Head Name",
+            "fieldlabel" : "Account Head Name",
+            "fieldrules" : [ 
+                {
+                    "required" : true,
+                    "message" : "This field is required"
+                }
+            ],
+            "fieldtype" : "textarea"
+        }, 
+        {
+            "fieldname" : "AccountType2",
+            "fieldplaceholder" : "Account Type",
+            "fieldlabel" : "Account Type",
+            "fieldrules" : [],
+            "fieldtype" : "select",
+            "options" : [ 
+                "Assets", 
+                "Liabilities", 
+                "xyz"
+            ]
+        }, 
+        {
+            "fieldname" : "AccountType",
+            "fieldplaceholder" : "Account Type",
+            "fieldlabel" : "Account Type",
+            "fieldrules" : [],
+            "fieldtype" : "multiselect",
+            "options" : [ 
+                "Assets", 
+                "Liabilities", 
+                "xyz"
+            ]
+        }
+    ]
+}
